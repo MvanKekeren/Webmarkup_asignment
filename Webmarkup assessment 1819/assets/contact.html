@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta name="viewport" content="width=device-width, intital-scale=1.0">
+	<meta charset="utf-8">
+</head>
+
+<main>
+<body>
+	<header>
+		<h3 id="header_text">COMPANY NAME</h3>
+	</header>
+
+	<nav>
+		<label id="hamburger_menu" for="toggle">&#9776;</label>
+		<input type="checkbox" id="toggle">
+		</ul>
+
+			<ul id="main_nav_group">
+					<li><a href="Home.html">Home</a></li>
+					<li><a href="product.html">Products</a></li>
+					<li><a href="#">Blog</a></li>
+			</ul>
+	</nav>
+
+	<article class="Blue_section_contact">
+		<section>
+				<h3 class="H3_special">Contact</h3>
+		</section>
+</article>
+
+<article>
+	<section id="FormPage_content">
+
+		<h2 class="Form_heading">More information</h2>
+
+		<form action="nowhere.php" method="post">
+			<fieldset>
+				<label class="Form_label">Select topic</label>
+				<select>
+					<option value="general">General inquiries</option>
+					<option value="press">Press relations</option>
+					<option value="recruitement">Recruitement</option>
+				</select>
+			</fieldset>
+			<fieldset class="contactFormFieldset">
+				<input
+						type="text"
+						name="contactFormName"
+						placeholder="Your name.."
+				/>
+			</fieldset>
+			<fieldset class="contactFormFieldset">
+				<input
+						type="email"
+						name="email"
+						placeholder="Your email.."
+				/>
+			</fieldset>
+			<fieldset>
+				<textarea
+						rows="7"
+						cols="40"
+						name="message"
+						placeholder="Write something.."
+				></textarea>
+			</fieldset>
+			<input id="Submit_button" type="submit" value="Submit"/>
+		</form>
+
+	</section>
+</article>
+
+<footer>
+<p id="Footer_text">2018 - Student name - Inholland</p>
+</footer>
+</body>
+</main>
+</html>
