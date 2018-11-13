@@ -7,7 +7,7 @@
 	<meta charset="utf-8">
 </head>
 
-<main>
+<section class="main">
 <body>
 	<header>
 		<h3 id="header_text">COMPANY NAME</h3>
@@ -38,34 +38,21 @@
 
 		<form action="nowhere.php" method="post">
 			<fieldset>
-				<label class="Form_label">Select topic</label>
-				<select>
+				<label id="Form_label">Select topic</label>
+				<select id="Form_select">
 					<option value="general">General inquiries</option>
 					<option value="press">Press relations</option>
 					<option value="recruitement">Recruitement</option>
 				</select>
 			</fieldset>
 			<fieldset class="contactFormFieldset">
-				<input
-						type="text"
-						name="contactFormName"
-						placeholder="Your name.."
-				/>
+				<input class="Form_input" type="text" name="contactFormName" placeholder="Your name.."/>
 			</fieldset>
 			<fieldset class="contactFormFieldset">
-				<input
-						type="email"
-						name="email"
-						placeholder="Your email.."
-				/>
+				<input class="Form_input" type="email"	name="email" placeholder="Your email.."/>
 			</fieldset>
 			<fieldset>
-				<textarea
-						rows="7"
-						cols="40"
-						name="message"
-						placeholder="Write something.."
-				></textarea>
+				<textarea class="Form_input" rows="7" cols="40" name="message"	placeholder="Write something.."></textarea>
 			</fieldset>
 			<input id="Submit_button" type="submit" value="Submit"/>
 		</form>
